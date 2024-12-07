@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+main {
+  height: auto;
+  font-family: "ubuntu";
+}
+
+h1 {
+  margin-top: 3.5rem;
+  font-size: 48px;
+  font-weight: 200;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 45px;
+  color: #957554;
+  text-align: center;
+  /* margin-top: 2.5rem;
+  margin-bottom: 0.5rem; */
+}
+
+h1,
+p {
+  color: white;
+}
+h3 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+nav .logo {
+  display: block;
+  margin: 1.5rem auto 2.5rem auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  margin-bottom: 3rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #957554;
+}
+
+ul li a:hover {
+  color: #f6bf87;
+  background-color: #402306;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+header .hintergrund {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/hero_image.png");
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .hintergrund button,
+.booking button {
+  width: 13rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: #dfaa5b;
+  font-size: 24px;
+  margin-top: 1.8rem;
+}
+
+header .hintergrund button:hover,
+.booking button:hover,
+.image div button:hover,
+.subcribe button:hover {
+  background-color: #efebe8;
+  color: #957554;
+  cursor: pointer;
+}
+
+.booking button {
+  display: block;
+  margin: auto;
+  width: 411px;
+  height: 76px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.facilities article {
+  display: flex;
+  justify-content: space-evenly;
+}
+.facilities h2 {
+  padding-top: 2.5rem;
+}
+.facilities p {
+  color: rgb(1, 1, 1);
+}
+
+.facilities .icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.facilities .icon {
+  margin: 4rem 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  margin: 1rem 0;
+}
+
+.flex button {
+  display: block;
+  margin: auto;
+}
+
+.images1 {
+  background-image: url(../images/standard_twin_room.png);
+}
+
+.images2 {
+  background-image: url(../images/standard_room.png);
+}
+
+.images3 {
+  background-image: url(../images/standard_view_room.png);
+}
+
+.images4 {
+  background-image: url(../images/deluxe_room.png);
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 630px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.image p {
+  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.image button {
+  margin-bottom: 3rem;
+  width: 244px;
+  height: 76px;
+  background-color: #dfaa5b;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+footer .address address {
+  font-style: normal;
+  color: white;
+  font-weight: 300;
+}
+
+.address address:first line {
+  font-weight: 800;
+}
+
+footer h1 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+footer .address img {
+  margin-bottom: 25px;
+}
+
+footer .info ul {
+  /* margin-top: 35px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+footer .subcribe form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+footer .subcribe form input,
+button {
+  width: 371px;
+  height: 75px;
+  background-color: #dfaa5b;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: none;
+}
+
+footer .subcribe form input {
+  background-color: white;
+  padding-left: 15px;
+}
+
+footer .subcribe form button {
+  color: white;
+  font-size: 20px;
+}
